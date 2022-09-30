@@ -28,3 +28,16 @@ Rm -r // remove directory
 
 ![image](p3.png)
 
+**Step Four: Moving Files with scp
+
+When we write a class with a public static void main class on our own computer, we can use the command scp to copy it into the remote computer.
+The structure to use scp is:
+scp {name of class}.java {the name of a specific cse 15l account name}@ieng6.ucsd.edu:~/
+
+![image](p4.png)
+
+**Step Five: Setting an SSH Key
+
+When we use the command, ssh-keygen, we can create a key for the remote computer, after which password is not needed for ssh and scp commands.
+After the public key is stored in {username}/id_rsa, we use the command, ssh {the name of a specific cse 15l account name}@ieng6.ucsd.edu, and then the command, mkdir .ssh, and then, scp {username}/id_rsa.pub {the name of a specific cse 15l account name}@ieng6.ucsd.edu:~/.ssh/authorized_keys, to activate the key.
+
