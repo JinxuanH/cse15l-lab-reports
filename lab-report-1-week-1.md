@@ -3,6 +3,7 @@
 To install VScode, we go to the webstie for it. (https://code.visualstudio.com/)
 Choose the right version (MacOs or Windows), and after installing, we can open it which shows this window.
 
+![image](Screen Shot 2022-09-29 at 9.23.18 PM.png)
 
 **Step Two: Remotely Connecting
 
