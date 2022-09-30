@@ -41,3 +41,10 @@ scp {name of class}.java {the name of a specific cse 15l account name}@ieng6.ucs
 When we use the command, ssh-keygen, we can create a key for the remote computer, after which password is not needed for ssh and scp commands.
 After the public key is stored in {username}/id_rsa, we use the command, ssh {the name of a specific cse 15l account name}@ieng6.ucsd.edu, and then the command, mkdir .ssh, and then, scp {username}/id_rsa.pub {the name of a specific cse 15l account name}@ieng6.ucsd.edu:~/.ssh/authorized_keys, to activate the key.
 
+![image](p5.png)
+![image](p6.png)
+
+**Step Six: Optimizing Remote Running
+
+To make remote control more efficient, we can use the ssh command to activate remote control, followed by another command which is useful after activation, to combine 2 commands into 1.
+We can also use semicolons to write several commands in one line to save time.
