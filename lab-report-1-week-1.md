@@ -27,3 +27,4 @@ Cd… //will change your current directory to the parent directory.
 Rm -r // remove directory  
 
 ![image](p3.png)
+
