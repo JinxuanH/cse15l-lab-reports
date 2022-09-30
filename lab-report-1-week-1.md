@@ -48,3 +48,5 @@ After the public key is stored in {username}/id_rsa, we use the command, ssh {th
 
 To make remote control more efficient, we can use the ssh command to activate remote control, followed by another command which is useful after activation, to combine 2 commands into 1.
 We can also use semicolons to write several commands in one line to save time.
+
+![image](p7.png)
